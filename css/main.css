@@ -698,10 +698,12 @@ footer{
 }
 
 @media only screen and (max-width: 360px) {
-    header .overlay,
-    header .background,
-    header .description{
-        height: 448px;
+    header .description ul{
+        float: none;
+        display: table;
+        margin: 50px auto;
     }
-
+    #download a{
+        margin: 0 auto;
+    }
 }
