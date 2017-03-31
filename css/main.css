@@ -551,7 +551,7 @@ header .overlay{
 }
 
 .important-message {
-    background: url('/img/background_section@2x.png') no-repeat;
+    background: url('/img/background_section.png') no-repeat;
     background-size: cover;
     position: relative;
     height: 380px;
