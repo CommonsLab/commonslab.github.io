@@ -624,6 +624,10 @@ footer{
     color: #F7F8F9;
 }
 
+.description a{
+    color: #E55555;
+}
+
 @media only screen and (max-width: 1024px) {
 
     h1{
