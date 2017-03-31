@@ -445,7 +445,16 @@ header .description{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+header .description{
     width: 100%;
+}
+
+header video,
+header .overlay{
+    min-width: 100vw;
+    min-height: 100%;
 }
 
 header .description{
@@ -465,7 +474,6 @@ header .description ul{
     padding: 0;
     list-style: none;
     font-size: 20px;
-
 }
 
 header .description ul li{
@@ -504,7 +512,7 @@ header .overlay{
     clear: both;
 }
 
-.capture-moments img{
+.capture-moments .phone-1{
     position: absolute;
     top: -320px;
     left: 80px;
@@ -614,4 +622,86 @@ footer{
     padding: 60px 0;
     text-align: center;
     color: #F7F8F9;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .button{
+        font-size: 18px;
+    }
+
+    header .description ul{
+        font-size: 18px;
+    }
+
+    .capture-moments{
+        padding-top: 260px;
+    }
+
+    .capture-moments h2{
+        margin-bottom: 35px;
+    }
+
+    .capture-moments .description{
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        max-width: 580px;
+    }
+
+    .capture-moments .description p{
+        padding: 0 40px;
+    }
+
+    .capture-moments .phone-1{
+        width: 142px;
+        height: 279px;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .capture-moments .photo{
+        float: none;
+        margin-top: 90px;
+    }
+
+    .capture-moments .photo img{
+        display: table;
+        margin: 0 auto;
+    }
+
+    #contribute .description {
+        width: 100%;
+        max-width: 500px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #contribute .description p{
+        padding: 0 40px;
+    }
+
+    #contribute .photo img{
+        float: none;
+        margin: 70px auto 0;
+        display: table;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    header .overlay,
+    header .background,
+    header .description{
+        height: 448px;
+    }
+
 }
